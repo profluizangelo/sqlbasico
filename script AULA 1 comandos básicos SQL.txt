@@ -1,0 +1,17 @@
+/* criando tabelas */
+create table alunos(codAlunos int, nomAlunos char, raAlunos int, codTurmaAlunos int);
+/*
+create table turmas(codTurma int, nomTurmas char, perTurmas int);
+
+create table periodos(codPeriodo int, nomPeriodo char);
+
+
+/* inserindo dados nas tabelas */
+insert into alunos values(1, 'Alexandre Satyro Fortunati', 941185, 1), (2, 'Luiz Angelo de Oliveira', 941186, 2), (3, 'Graziela Cristina da Rocha', 941187, 2);
+
+insert into periodos values(1, 'Manhã'), (2, 'Tarde'), (3, 'Noite'), (4, 'Integral'), (5, 'Vespertino'), (6, 'EaD remoto');
+
+insert into turmas values(1, 'ciências da computação')
+
+/* seleções de dados */
+select * from alunos where= <=  ;

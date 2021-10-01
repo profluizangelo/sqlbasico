@@ -1,0 +1,19 @@
+/* criando tabelas */
+create table funcionarios(codfunc int, nomfunc char, carfunc char, depfunc int);
+create table departamentos(coddepto int, desdepto varchar, sigdepto char, pisdepto real);
+
+/* inserção de dados na tabela */
+insert into funcionarios values(1, 'Luiz Angelo de Oliveira', 'professor', 10), (3, 'José Carlos Pace', 'Suporte', 10), 
+(2, 'Cristina Aguilera', 'Diretora', 11);
+
+insert into departamentos values(10, 'Tecnologia da Informação', 'TI', 2500.00), (11, 'Gerência', 'GR', 4200.00);
+
+/* seleção de dados cadastrados na tabela */
+select nomfunc, carfunc, desdepto from funcionarios INNER JOIN departamentos on depfunc=coddepto where depfunc=10
+
+
+/* HISTÓRICO de comandos de seleção de dados executados anteriormente, como comentários para consulta e registro de atividades */
+/* select * from funcionarios */
+/* select * from funcionarios where depfunc=10 */
+/* select nomfunc, carfunc from funcionarios where depfunc=10 */
+/* select nomfunc, carfunc from funcionarios INNER JOIN departamentos

@@ -1,0 +1,13 @@
+/* criando tabelas */
+create table tab_alunos(codAlunos int, nomAlunos char, raAlunos int, codTurmaAlunos int);
+create table tab_turmas(codTurma int, nomTurmas char, perTurmas int);
+create table tab_periodos(codPeriodo int, nomPeriodo char);
+
+
+/* inserindo dados nas tabelas */
+insert into tab_alunos values(1, 'Alexandre Satyro Fortunati', 941185, 1), (2, 'Luiz Angelo de Oliveira', 941186, 2), (3, 'Graziela Cristina da Rocha', 941187, 2);
+insert into tab_periodos values(1, 'Manhã'), (2, 'Tarde'), (3, 'Noite'), (4, 'Integral'), (5, 'Vespertino'), (6, 'EaD remoto');
+insert into tab_turmas values(1, 'ciências da computação', 1), (2, 'análise e projeto de sistemas', 3);
+
+/* seleções de dados e exibição */
+select * from tab_periodos
