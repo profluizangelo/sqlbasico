@@ -12,3 +12,4 @@ select codProduto, nomProduto, nomFabricante from tabProduto where anoProduto = 
 
 /* generate: https://www.jdoodle.com/execute-sql-online/ */
 /* author: @profluizangelo */
+/* creation: abr/2022 */
