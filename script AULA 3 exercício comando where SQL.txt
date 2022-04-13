@@ -1,11 +1,13 @@
 /* criando tabelas */
-create table tab_produtos (cod_produto int, des_produto char, var_precovenda float, var_precocusto float, cod_categoria int)
-
+create table tab_produtos (cod_produto int, des_produto char, var_precovenda float, var_precocusto float, cod_categoria int);
 
 /* inserindo dados nas tabelas */
-insert into tab_produtos values(001, 'Caderno Escolar', 12.90, 9.70, 2), (002, 'Caneta Azul', 3.00, 1.80, 2), (003, 'Carregador Portátil', 49.90, 38.70, 1)
-
+insert into tab_produtos values(001, 'Caderno Escolar', 12.90, 9.70, 2), (002, 'Caneta Azul', 3.00, 1.80, 2), (003, 'Carregador Portátil', 49.90, 38.70, 1);
 
 
 /* seleções de dados e exibição */
-select * from tab_produtos where des_produto = 'Caderno Escolar'
+select * from tab_produtos where cod_categoria = 2;
+
+/* generate: https://www.jdoodle.com/execute-sql-online/ */
+/* author: @profluizangelo
+/* create: 2021 update: abr/2022 */
