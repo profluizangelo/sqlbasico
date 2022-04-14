@@ -139,4 +139,5 @@ DENY SELECT ON tabela exemplo TO Usuario2;
 Acima, estamos estipulando que o Usuario2 teve o seu acesso ao comando select, na tabela exemplo, totalmente negado.
 
 /* published: Abr/2022 */
+/* original: https://kenzie.com.br/blog/comandos-sql/ */
 /* adapted: @profluizangelo */
